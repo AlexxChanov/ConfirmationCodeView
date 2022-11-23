@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <declare-styleable name="RectEntryEditText">
+  <declare-styleable name="confirmationCodeView">
     <attr format="dimension" name="rectRadius" />
     <attr format="dimension" name="rectWidth" />
     <attr format="dimension" name="boxStrokeWidth" />
-    <attr format="integer" name="landingDigitNumber" />
-    <attr format="dimension" name="landingDigitExtraSpace" />
-    <attr format="dimension" name="landingDigitWidth" />
-    <attr format="dimension" name="landingDigitHeight" />
-    <attr format="color" name="landingAlertColor" />
-    <attr format="color" name="landingStrokeColor" />
+    <attr format="integer" name="digitNumber" />
+    <attr format="dimension" name="digitExtraSpace" />
+    <attr format="dimension" name="digitWidth" />
+    <attr format="dimension" name="digitHeight" />
+    <attr format="color" name="alertColor" />
+    <attr format="color" name="strokeColor" />
   </declare-styleable>
 
 </resources>

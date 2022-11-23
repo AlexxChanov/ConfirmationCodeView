@@ -15,13 +15,13 @@
       android:textAppearance="?textAppearanceHeadline5"
       android:layout_marginBottom="32dp"
       android:textColor="@color/black"
-      custom:landingAlertColor="@color/design_default_color_secondary"
-      custom:landingDigitExtraSpace="5dp"
-      custom:landingDigitHeight="36dp"
-      custom:landingDigitNumber="4"
-      custom:landingDigitWidth="14dp"
+      custom:alertColor="@color/design_default_color_secondary"
+      custom:digitExtraSpace="5dp"
+      custom:digitHeight="36dp"
+      custom:digitNumber="4"
+      custom:digitWidth="14dp"
       custom:rectRadius="4dp"
       custom:boxStrokeWidth="2dp"
       custom:rectWidth="40dp"
-      custom:landingStrokeColor="@color/design_default_color_primary_dark"/>
+      custom:strokeColor="@color/design_default_color_primary_dark"/>
   </RelativeLayout>

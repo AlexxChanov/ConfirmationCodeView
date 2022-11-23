@@ -105,28 +105,28 @@ class ConfirmationCodeView : AppCompatEditText {
   ) {
     val a = context.theme.obtainStyledAttributes(
       attributeSet,
-      R.styleable.RectEntryEditText,
+      R.styleable.confirmationCodeView,
       0, 0
     )
 
     try {
-      boxStrokeWidth = a.getDimensionPixelSize(R.styleable.RectEntryEditText_boxStrokeWidth, 0)
-      rectRadius = a.getDimensionPixelSize(R.styleable.RectEntryEditText_rectRadius, 0)
-      rectWidth = a.getDimensionPixelSize(R.styleable.RectEntryEditText_rectWidth, 0)
-      digitWidth = a.getDimensionPixelSize(R.styleable.RectEntryEditText_landingDigitWidth, 0)
-      digitHeight = a.getDimensionPixelSize(R.styleable.RectEntryEditText_landingDigitHeight, 0)
-      digitNumber = a.getInt(R.styleable.RectEntryEditText_landingDigitNumber, 1)
+      boxStrokeWidth = a.getDimensionPixelSize(R.styleable.confirmationCodeView_boxStrokeWidth, 0)
+      rectRadius = a.getDimensionPixelSize(R.styleable.confirmationCodeView_rectRadius, 0)
+      rectWidth = a.getDimensionPixelSize(R.styleable.confirmationCodeView_rectWidth, 0)
+      digitWidth = a.getDimensionPixelSize(R.styleable.confirmationCodeView_digitWidth, 0)
+      digitHeight = a.getDimensionPixelSize(R.styleable.confirmationCodeView_digitHeight, 0)
+      digitNumber = a.getInt(R.styleable.confirmationCodeView_digitNumber, 1)
       filters += InputFilter.LengthFilter(digitNumber)
       digitExtraSpace =
-        a.getDimensionPixelSize(R.styleable.RectEntryEditText_landingDigitExtraSpace, 0)
+        a.getDimensionPixelSize(R.styleable.confirmationCodeView_digitExtraSpace, 0)
       background = ResourcesCompat.getDrawable(resources, R.color.transparent, null)
       alertColor = a.getColor(
-        R.styleable.RectEntryEditText_landingAlertColor,
+        R.styleable.confirmationCodeView_alertColor,
         ContextCompat.getColor(context, R.color.teal_200),
       )
       strokePaint.strokeWidth = boxStrokeWidth.toFloat()
       strokePaint.color = a.getColor(
-        R.styleable.RectEntryEditText_landingStrokeColor,
+        R.styleable.confirmationCodeView_strokeColor,
         ContextCompat.getColor(context, R.color.purple_200),
       )
       chars = createChars()
