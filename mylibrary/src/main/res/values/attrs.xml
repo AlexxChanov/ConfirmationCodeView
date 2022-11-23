@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <declare-styleable name="RectEntryEditText">
+    <attr format="dimension" name="rectRadius" />
+    <attr format="dimension" name="rectWidth" />
+    <attr format="dimension" name="boxStrokeWidth" />
+    <attr format="integer" name="landingDigitNumber" />
+    <attr format="dimension" name="landingDigitExtraSpace" />
+    <attr format="dimension" name="landingDigitWidth" />
+    <attr format="dimension" name="landingDigitHeight" />
+    <attr format="color" name="landingAlertColor" />
+    <attr format="color" name="landingStrokeColor" />
+  </declare-styleable>
+
+</resources>
